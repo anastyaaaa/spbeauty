@@ -7,12 +7,14 @@ const Select = styled.select`
     -webkit-appearance: none !important; 
     appearance: none !important;
     outline: none;
-    border-radius: 0px;
-    border: solid #152842 1px;
-    background-color: #D9E2EF;
-    color: #666787;
+    border-radius: 24px;
+    border: solid #E2E8F0 1px;
+    min-width: 447px;
+    max-width: 447px;
+    background-color: #F8FAFC;
+    color: #0F172A;
     &:hover {
-        background-color: #D9E2EFB8;
+        opacity: 0.8;;
     }
 `;
 
@@ -23,7 +25,7 @@ function TitledSelector({title, options}) {
     return (
         <div className='d-flex flex-column gap-2'>
             {Title}
-            <Select className='p-2'>
+            <Select className='py-2 ps-3'>
                 {options.map(optionName => {
                     return (
                         <option key={optionName}>{optionName}</option>

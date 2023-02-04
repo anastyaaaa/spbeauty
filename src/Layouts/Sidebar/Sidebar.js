@@ -8,6 +8,7 @@ const Container = styled.div`
     color: #64748B;
     height: 100vh;
     border-right: solid #ECEEF1 1px;
+    min-width: 237px;
 `;
 
 const ButtonContainer = styled.div`
