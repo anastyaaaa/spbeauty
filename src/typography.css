@@ -48,3 +48,10 @@ input,
   font-size: 8px;
   line-height: 8px;
 }
+
+.caption-rg-input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #94A3B8;
+}
