@@ -12,10 +12,8 @@ function ListElement(props) {
     return (
         <div className='d-flex flex-row align-items-center align-self-stretch gap-2'>
             <Option >{props.children}</Option>
-            <EditIcon className='p-2'>  
-            </EditIcon>
-            <RemoveIcon className='p-2'>  
-            </RemoveIcon>
+            <IconOnlyButton icon={<EditIcon/>}/>
+            <IconOnlyButton icon={<RemoveIcon/>}/>
 
         </div>
     );
